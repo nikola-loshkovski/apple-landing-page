@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*** Header ***/
+
+header {
+    background-color: #648dab;
+}
+
+/* Logo */
+.fa-apple {
+    font-size: 40px;
+    margin: 15px;
+    margin-left: 50px;
+    color: white;
+}
+
+/* Nav */
+#header-nav {
+    float: right;
+}
+
+#header-nav-list {
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-right: 50px;
+}
+
+#header-nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-nav-list a:hover {
+    color: silver;
+}
+
+#header-nav-list li {
+    display: inline;
+    list-style: none;
+    padding: 14px;
+}
+
+/* Cover Image */
+#apple-devices-img {
+    display: block;
+    height: 250px;
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Main ***/
+
+/* Apple Logo Icons */
+.icons-apple {
+    display: inline;
+}
+
+.logo-macbookAir,
+.logo-ipad,
+.logo-iphoneX,
+.logo-about {
+    height: 100%;
+    width: 25%;
+    padding: 40px 0;
+    float: left;
+}
+
+.logo-macbookAir {
+    background-color: #c7c5bf;
+}
+
+.logo-ipad {
+    background-color: #bdbaab;
+}
+
+.logo-iphoneX {
+    background-color: #9ce0d1;
+}
+
+.logo-about {
+    background-color: #9faec1;
+}
+
+.fa-laptop,
+.fa-tablet-alt,
+.fa-mobile-alt,
+.fa-comments {
+    font-size: 40px;
+    padding: 0px 4%;
+    margin: 0px 39%;
+    padding-bottom: 30px;
+}
+
+h5,
+h4 {
+    text-align: center;
+}
+
+.logo-about h5,
+h4 {
+    text-transform: uppercase;
+}
+
+/* iPad, iPhone X, MacBookAir */
+#ipad,
+#iphone,
+#macbook {
+    height: 300px;
+    width: 100%;
+}
+
+.ipad-img,
+.iphone-img,
+.macbook-img {
+    background-color: #b7ced6;
+    width: 50%;
+    height: 100%;
+    padding: 40px 0;
+    float: left;
+}
+
+.ipad-img img,
+.iphone-img img,
+.macbook-img img {
+    height: 300px;
+    margin: 0 25%;
+}
+
+.ipad-info h2,
+.ipad-info p,
+.iphone-info h2,
+.iphone-info p,
+.macbook-info h2,
+.macbook-info p,
+footer p {
+    color: white;
+}
+
+.ipad-info h2,
+.iphone-info h2,
+.macbook-info h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.ipad-info p,
+.iphone-info p,
+.macbook-info p {
+    padding: 30px;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+.ipad-info,
+.iphone-info,
+.macbook-info {
+    width: 50%;
+    height: 100%;
+    padding: 40px 0;
+    float: left;
+}
+
+.ipad-info {
+    background-color: #9faec1;
+}
+
+.iphone-info {
+    background-color: #bdbaab;
+}
+
+.macbook-info {
+    background-color: #e6987a;
+}
+
+/* About */
+#about {
+    height: 50px;
+    width: 100%;
+}
+
+#about p {
+    padding: 10px 20px;
+    text-align: justify;
+    word-spacing: 5px;
+    color: white;
+}
+
+#team,
+#sallary,
+#earnings {
+    width: 33.33%;
+    width: calc(100% / 3);
+    display: inline-block;
+    height: 100%;
+    padding: 40px 0;
+    float: left;
+}
+
+#team {
+    background-color: #9ba7b6;
+}
+
+#sallary {
+    background-color: #afab9f;
+}
+
+#earnings {
+    background-color: #9ce0d1;
+}
+
+/* Contact */
+#contact {
+    height: 180px;
+}
+
+#contact-icons {
+    background-color: #5d829f;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#contact .fa-facebook-f, 
+.fa-google-plus-g,
+.fa-youtube,
+.fa-twitter,
+.fa-instagram {
+    font-size: 30px;
+    color: white;
+    margin: 70px 80px;
+    text-align: center;
+}
+
+/*** Footer ***/
+
+footer { 
+    max-height: 100px;
+    width: 100%;
+}
+
+footer div {
+    background-color: #514354;
+    text-align: center;
+}
+
+footer>div>p {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+}
